@@ -1,2 +1,2 @@
 # ModSecurity/ML Testing Dataset
-Dataset used for ModSecury testing
+Dataset used for ModSecurity/ML testing
