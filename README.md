@@ -1,8 +1,20 @@
-# ModSecurity/ML Dataset
-Dataset used for ModSecurity/ML experiments.
+# HTTP traffic dataset
+This is the dataset used in "[Boosting ModSecurity with Machine Learning]()".
 
-This dataset was built using:
-- openappsec dataset (https://github.com/openappsec/waf-comparison-project) for legitimates and malicious
-- kaggle sqli (https://www.kaggle.com/datasets/sajid576/sql-injection-dataset/data) for malicious
-- httpparams (https://github.com/Morzeux/HttpParamsDataset) for malicious
-- sqlmap payloads, generated attacking a vulnerable infrastructure
+## How to cite us
+
+If you use this dataset, please cite us:
+```bibtex
+```
+
+## Using this dataset
+
+Since GitHub does not allow files larger than 25MB, we divided them into chunks.
+
+To rebuild the whole dataset, you can use the `merge.py` scripts in legitimate and malicious folders.
+```bash
+:~$ cd legitimates
+:~$ python3 merge.py
+:~$ cd malicious
+:~$ python3 merge.py
+```
