@@ -1,4 +1,4 @@
-# HTTP traffic dataset
+# ModSec-Learn dataset
 This is the dataset used in "[Boosting ModSecurity with Machine Learning](https://arxiv.org/abs/2406.13547)".
 
 ## How to cite us
